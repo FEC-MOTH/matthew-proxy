@@ -1,0 +1,27 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "\"# matthew-proxy\"  git init git add README.md git commit -m \"first commit\" git remote add origin https://github.com/FEC-MOTH/matthew-proxy.git git push -u origin master\r \"# matthew-proxy\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEC-MOTH/matthew-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEC-MOTH/matthew-proxy/issues"
+  },
+  "homepage": "https://github.com/FEC-MOTH/matthew-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.6",
+    "path": "^0.12.7"
+  }
+}
