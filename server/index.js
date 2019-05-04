@@ -7,7 +7,7 @@ const app = express();
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, '../dist/')));
 
-const port = 3000;
+const port = 80;
 
 app.listen(port, () => {
   console.log(`proxy listening at port ${port}`);
